@@ -144,6 +144,7 @@ public class ExpressionParser implements Parser {
                     tokens.prev();
                     primary = new Negate(primary());
                 }
+                
                 break;
 
             case LOGNOT:
